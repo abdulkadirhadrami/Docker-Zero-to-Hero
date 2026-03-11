@@ -4,7 +4,7 @@ from http.server import BaseHTTPRequestHandler, HTTPServer
 HOST = "0.0.0.0"
 PORT = 5000
 
-name = os.getenv("NAME", "World")
+name = os.getenv("NAME", "Abdulkadir Osman")
 
 class Handler(BaseHTTPRequestHandler):
     def do_GET(self):
